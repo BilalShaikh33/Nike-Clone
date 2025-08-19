@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.navbar1 a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.navbar2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar2 a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.navbar2 a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
+.mainimgheading {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.mainimgheading h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
+.mainimgheadingbtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainimgheadingbtn button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.mainimg2container {
+    margin-bottom: 40px;
+}
+
+figure {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.itemscontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.itemimg1 {
+    margin-right: 0px;
+
+}
+
+.itemimg2 {
+    margin-left: 0px;
+}
+
+.figure-caption h5 {
+    color: black;
+
+}
+
+
+.itemimg1para {
+    width: 500px;
+}
+
+.btn {
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 17px;
+    margin: 3px;
+    width: 170px;
+}
+
+.figcapbtn {
+    margin-top: 20px;
+}
+
+.footercontainerr {
+    color: rgb(95, 86, 86);
+    /* margin-top: 20px; */
+}
+
+
+li a{
+    text-decoration: none;
+}
+.ftrrightsreservedbtn a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 60px;
+
+}
